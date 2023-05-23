@@ -1,0 +1,103 @@
+body {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 14px;
+  background-color: #202123;
+  width: 100%;
+  height: 100%;
+}
+body .page-container a {
+  color: #bdc1c6;
+  text-decoration: none;
+}
+body .page-container .top-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 0px;
+}
+body .page-container .top-container .header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 24%;
+}
+body .page-container .top-container .header-right i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+}
+body .page-container .top-container .header-right a {
+  font-size: 13px;
+  color: white;
+}
+body .page-container .top-container .header-right button {
+  background-color: #93baf9;
+  border: none;
+  width: 95px;
+  height: 35px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+body .page-container .top-container .header-left {
+  justify-content: space-evenly;
+  width: 10%;
+  display: flex;
+  align-items: center;
+}
+
+body .main-content-container .picture-content {
+  display: flex;
+  justify-content: center;
+}
+body .main-content-container .picture-content img {
+  height: 170px;
+  width: 475px;
+}
+body .main-content-container .search-bar-container {
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .main-content-container .search-bar-container button .search-box {
+  display: flex;
+}
+body .main-content-container .search-bar-container .search-symbol {
+  display: flex;
+}
+body .main-content-container .search-bar-container .search-symbol i {
+  display: flex;
+  color: black;
+}
+body .main-content-container .button-container {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  align-items: center;
+}
+body .main-content-container .button-container .left-button {
+  padding: 0px 5px;
+}
+body .main-content-container .button-container .left-button button {
+  background-color: #303135;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 125px;
+}
+body .main-content-container .button-container .right-button {
+  padding: 0px 5px;
+}
+body .main-content-container .button-container .right-button button {
+  background-color: #303135;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+}/*# sourceMappingURL=home.css.map */
